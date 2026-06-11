@@ -93,7 +93,7 @@ export default function Hero() {
                 <div className="absolute top-1/2 -right-2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-[#F6E8F8]/50" />
               </div>
 
-              {/* Middle ring */}
+              {/* Middle circle */}
               <div className="absolute inset-10 rounded-full border border-[#F6E8F8]/20 animate-spin-reverse">
                 <div className="absolute -top-1.5 left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-[#F6E8F8]/70 shadow-[0_0_8px_#F6E8F8]" />
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-[#F6E8F8]/30" />
@@ -102,7 +102,7 @@ export default function Hero() {
               {/* Glow ring behind photo */}
               <div className="absolute inset-16 rounded-full shadow-[0_0_50px_rgba(246,232,248,0.18),0_0_100px_rgba(246,232,248,0.08)]" />
 
-              {/* Profile picture (head to tie) */}
+              {/* Profile picture */}
               <div className="absolute inset-16 rounded-full border border-[#F6E8F8]/35 overflow-hidden bg-black">
                 <Image
                   src="/projects/me.png"
